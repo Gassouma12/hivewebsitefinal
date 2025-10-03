@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Hive 12's Main Hive</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/dark-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-pgOYS+r/qIn8MpA0D3Hu0FSr02/uLy3I5mpNB/AYpPXAlw+3qBSkzfrMXEEzLgFWtafKkK7KGXowQcOuSpUJ6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="home-page">
+
+  <!-- Reusable Header Component -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-mark" aria-label="Home"><img src="assets/images/logo.png"
+          alt="Hive 12 Logo"></a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="experts.html">Experts</a></li>
+          <li><a href="startups.html">Startups</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="contact-pill">Contact us</a>
+        <label class="theme-switch" for="theme-toggle" title="Toggle dark mode">
+          <input type="checkbox" id="theme-toggle" class="theme-switch__input">
+          <span class="theme-switch__track">
+            <span class="theme-switch__thumb">
+              <svg class="theme-switch__icon theme-switch__icon--sun" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.106a.75.75 0 010 1.06l-1.591 1.59a.75.75 0 11-1.06-1.06l1.59-1.59a.75.75 0 011.06 0zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.803 17.803a.75.75 0 01-1.06 0l-1.59-1.591a.75.75 0 111.06-1.06l1.59 1.59a.75.75 0 010 1.06zM12 18.75a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0v-2.25a.75.75 0 01.75-.75zM5.106 17.803a.75.75 0 010-1.06l1.59-1.59a.75.75 0 111.06 1.06l-1.59 1.59a.75.75 0 01-1.06 0zM4.5 12a.75.75 0 01-.75.75H1.5a.75.75 0 010-1.5h2.25a.75.75 0 01.75.75zM6.106 5.106a.75.75 0 011.06 0l1.59 1.591a.75.75 0 11-1.06 1.06L6.106 6.167a.75.75 0 010-1.06z" />
+              </svg>
+              <svg class="theme-switch__icon theme-switch__icon--moon" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 004.463-.945.75.75 0 01.981.981A10.503 10.503 0 0118 21a10.5 10.5 0 01-10.5-10.5c0-4.368 2.667-8.112 6.46-9.672a.75.75 0 01.818.162z"
+                  clip-rule="evenodd" />
+              </svg>
+            </span>
+          </span>
+        </label>
+        <button class="hamburger-btn" aria-label="Open menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Sheet -->
+  <div class="mobile-nav-sheet" role="dialog" aria-modal="true">
+    <button class="close-nav-btn" aria-label="Close menu">&times;</button>
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="experts.html">Experts</a></li>
+        <li><a href="startups.html">Startups</a></li>
+        <li><a href="partners.html">Partners</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="mobile-nav-overlay"></div>
+
+  <div class="top">
+    <img class="centered-image" src="assets/images/slogan.png" alt="Centered Image">
+  </div>
+  <div class="container">
+    <div class="box1">
+      <div class="box1a">
+        <a href="meet-the-team.html">
+          <img id="meet-the-team-img" src="assets/images/meet the team.png" alt="Meet the Team">
+        </a>
+      </div>
+      <div class="box1b">
+        <div class="image-container">
+          <img id="member1" src="assets/images/member1.png" alt="Your Image">
+          <img id="glasses" class="top-image" src="assets/images/glasses.png" alt="Top Image">
+        </div>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="box2text play-button-container">
+        <img src="assets/images/play.png" alt="Your Image">
+      </div>
+      <div class="box2b">
+        <!-- Add an icon -->
+        <!-- Add an icon -->
+        <a href="on-founders.html"><img src="assets/images/plus.png" alt="Icon" class="plus-image"></a>
+
+        <!-- Add the first image -->
+        <img src="assets/images/on.png" alt="Image 1" class="first-image">
+
+        <!-- Add the second image -->
+        <img src="assets/images/founders.png" alt="Image 2" class="second-image">
+
+        <!-- Add the new image -->
+        <img src="assets/images/member2.png" alt="New Image" class="new-image">
+      </div>
+    </div>
+    <div class="box3">
+
+      <img src="assets/images/chichi.png" alt="chichi" class="middlepic">
+
+    </div>
+    <div class="box4">
+      <div class="box4a">
+
+        <img src="assets/images/man.png" class="new-image" alt="Plus Image">
+      </div>
+      <div class="box4b">
+
+        <img src="assets/images/chichii.png" class="box4bpic flip-animation">
+
+      </div>
+    </div>
+    <div class="box5">
+      <div class="box5a"></div>
+      <div class="box5b">
+        <img src="assets/images/flower.png" class="box5img" alt="Centered Image">
+        <img src="assets/images/plus.png" class="plus-image" alt="Plus Image">
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+      <p>&copy; HIVE12 ~ All rights reserved</p>
+    </footer>
+  <script src="js/script.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/mobile-stack.js"></script>
+</body>
+
+</html>
