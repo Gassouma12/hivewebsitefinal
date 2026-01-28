@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "name": "BNIINN",
+        "description": "BNIINN is a revolutionary platform connecting local artisans with a global market, preserving cultural heritage through modern e-commerce.",
+        "logoUrl": "assets/startups/bniinn.svg",
+        "fallbackText": "BNIINN",
+        "tileClass": "tile-bniinn",
+        "logo": "../assets/images/startups/img_69642e633ca068.20163905.jpg",
+        "cardColor": "#2d17d3",
+        "linkedin": "https://www.linkedin.com/"
+    },
+    {
+        "id": 2,
+        "name": "Abajim",
+        "description": "Abajim is a fintech startup simplifying financial literacy for young adults through a gamified mobile application, making saving and investing intuitive and fun.",
+        "logoUrl": "assets/startups/abajim.svg",
+        "fallbackText": "abajim",
+        "tileClass": "tile-abajim",
+        "logo": "../assets/images/startups/img_69642e80377a11.11653712.jpg",
+        "cardColor": "#000000"
+    },
+    {
+        "id": 5,
+        "name": "Auzy",
+        "description": "Auzy is a health-tech startup developing AI-powered diagnostic tools to assist medical professionals in providing faster and more accurate patient care.",
+        "logoUrl": "assets/startups/auzy.svg",
+        "fallbackText": "Auzy",
+        "tileClass": "tile-auzy",
+        "logo": "../assets/images/startups/img_69642ea794e2e6.47872201.jpg",
+        "cardColor": "#000000"
+    },
+    {
+        "id": 1,
+        "name": "Funnycation",
+        "description": "Funnycation is an ed-tech company that creates engaging and humorous educational content for children, transforming learning into an adventure.",
+        "logo": "../assets/images/startups/img_69642eeb4764e9.55637817.jpg",
+        "cardColor": "#000000"
+    }
+]

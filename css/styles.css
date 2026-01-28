@@ -66,8 +66,8 @@ button:hover {
   margin-right: 5%;
 }
 
-@media screen and (max-width : 980px){
-  .container{
+@media screen and (max-width : 980px) {
+  .container {
     width: 95%;
     margin-right: 2%;
   }
@@ -109,7 +109,7 @@ button:hover {
 }
 
 
-.boxa1 p{
+.boxa1 p {
   font-size: 2vw;
   margin-bottom: 20vw;
 }
@@ -140,7 +140,8 @@ button:hover {
 .box1:hover #meet,
 .box1:hover #team {
   filter: invert(78%) sepia(31%) saturate(7385%) hue-rotate(331deg) brightness(102%) contrast(99%);
-  animation: shake 0.5s ease-in-out 0.2s 2; /* Adjust animation duration and timing as needed */
+  animation: shake 0.5s ease-in-out 0.2s 2;
+  /* Adjust animation duration and timing as needed */
 }
 
 .box1:hover .box1b {
@@ -149,27 +150,40 @@ button:hover {
 
 
 .box1a a {
-    display: block; /* Make the link a block to contain the image */
-    line-height: 0; /* Remove any extra line height */
+  display: block;
+  /* Make the link a block to contain the image */
+  line-height: 0;
+  /* Remove any extra line height */
 }
 
 #meet-the-team-img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px; /* Add bottom margin */
-    transition: filter 0.3s ease;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  /* Add bottom margin */
+  transition: filter 0.3s ease;
 }
 
 @keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
-    75% { transform: translateX(5px); }
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
 }
 
 .box1a a:hover #meet-the-team-img {
-    /* Orange color filter: sepia, saturate, hue-rotate, brightness, contrast */
-    filter: sepia(1) saturate(5) hue-rotate(-45deg) brightness(1.1) contrast(1.1);
-    animation: shake 0.5s ease-in-out infinite;
+  /* Orange color filter: sepia, saturate, hue-rotate, brightness, contrast */
+  filter: sepia(1) saturate(5) hue-rotate(-45deg) brightness(1.1) contrast(1.1);
+  animation: shake 0.5s ease-in-out infinite;
 }
 
 .box1b {
@@ -192,29 +206,35 @@ button:hover {
 }
 
 .box1b #glasses {
-  transform: rotate(15deg); /* Rotate the image by 45 degrees */
+  transform: rotate(15deg);
+  /* Rotate the image by 45 degrees */
   position: absolute;
   max-width: 33%;
   top: 7vh;
-  left: 23%;
+  left: 25%;
 }
 
 /* Add animation for sliding down the glasses element */
 @keyframes slideDown {
   0% {
     top: 7vh;
-    left:23%;
-  } /* Start from the middle */
+    left: 23%;
+  }
+
+  /* Start from the middle */
 
   100% {
     top: calc(7vh);
-    left:25%;
-  } /* Slide down by 1vh */
+    left: 25%;
+  }
+
+  /* Slide down by 1vh */
 }
 
 /* Apply the animation to the glasses element */
 .box1:hover #glasses {
-  animation: slideDown 0.3s ease-in-out forwards; /* Animation duration and timing */
+  animation: slideDown 0.3s ease-in-out forwards;
+  /* Animation duration and timing */
 }
 
 
@@ -225,31 +245,37 @@ button:hover {
   top: 50%;
   left: 50%;
   min-width: 280px;
-  transform: translate(-50%, -50%); /* Center the image horizontally and vertically */
+  transform: translate(-50%, -50%);
+  /* Center the image horizontally and vertically */
   z-index: 9999;
-  width: 25%; /* Set a fixed width for the image */
+  width: 25%;
+  /* Set a fixed width for the image */
   aspect-ratio: 364/134;
-  max-width: 100%; /* Ensure the image does not exceed its container's width */
+  max-width: 100%;
+  /* Ensure the image does not exceed its container's width */
 }
-@media  screen and (max-width : 700px) {
-  .centered-image{
+
+@media screen and (max-width : 700px) {
+  .centered-image {
     min-width: 240px;
   }
 }
-@media  screen and (max-width : 570px) {
-  .centered-image{
+
+@media screen and (max-width : 570px) {
+  .centered-image {
     min-width: 200px;
   }
 }
 
 
-.top{
+.top {
   width: 100%;
   position: relative;
 
 
 }
-.top p{
+
+.top p {
   position: absolute;
   top: 43%;
   left: 14.8%;
@@ -266,7 +292,7 @@ button:hover {
 
 .image-container img {
   position: absolute;
-  bottom:0;
+  bottom: 0;
 
 }
 
@@ -274,7 +300,8 @@ button:hover {
   /* Adjust the size and positioning of the top image as needed */
   width: 50%;
   height: auto;
-  z-index: 1; /* Ensure the top image is above the bottom image */
+  z-index: 1;
+  /* Ensure the top image is above the bottom image */
 }
 
 .box1 p {
@@ -283,16 +310,16 @@ button:hover {
 
 .box3 {
   border-radius: 20px;
-    position: relative;
-    margin-top: 15%;
-    /* min-width: 100px; */
-    aspect-ratio: 245/450;
-    background-color: #ccc;
-    top: 0vh;
-    width: 15%;
-    margin-left: -20px;
-    background-color: #f6cc08;
-  }
+  position: relative;
+  margin-top: 15%;
+  /* min-width: 100px; */
+  aspect-ratio: 245/450;
+  background-color: #ccc;
+  top: 0vh;
+  width: 15%;
+  margin-left: -20px;
+  background-color: #f6cc08;
+}
 
 
 
@@ -308,29 +335,30 @@ button:hover {
   left: -8%;
   top: 2vh;
   aspect-ratio: 240/165;
-  background-color: #dea4fc; /* Add background color */
+  background-color: #dea4fc;
+  /* Add background color */
   margin-bottom: 10px;
 }
 
-.box5b:hover{
+.box5b:hover {
   background-color: #e82628;
 }
 
 
-.box5b .box5img{
-transform: scaleX(-1);
-top: -50%;
-left: 0%;
-transition: transform 0.3s ease;
+.box5b .box5img {
+  transform: scaleX(-1);
+  top: -50%;
+  left: 0%;
+  transition: transform 0.3s ease;
 }
 
-.box5b:hover .box5img{
+.box5b:hover .box5img {
   transform: scaleX(-1) rotate(10deg);
 
 }
 
 
-.box5b:hover .plus-image{
+.box5b:hover .plus-image {
   transform: rotate(45deg);
 
 }
@@ -372,18 +400,24 @@ transition: transform 0.3s ease;
   width: 90%;
   left: -15%;
   aspect-ratio: 240 / 165;
-  display: flex; /* Use flexbox to align items vertically */
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
+  display: flex;
+  /* Use flexbox to align items vertically */
+  justify-content: center;
+  /* Center the content horizontally */
+  align-items: center;
+  /* Center the content vertically */
   margin-bottom: 5%;
   /* min-width: 150px; */
 }
 
 .box4 .box4a img,
 .box4 .box4b img {
-  max-width: 100%; /* Ensure image does not exceed container width */
-  max-height: 100%; /* Ensure image does not exceed container height */
-  border-radius: 20px; /* Apply border radius to image */
+  max-width: 100%;
+  /* Ensure image does not exceed container width */
+  max-height: 100%;
+  /* Ensure image does not exceed container height */
+  border-radius: 20px;
+  /* Apply border radius to image */
 }
 
 .box4 .box4a {
@@ -412,11 +446,13 @@ transition: transform 0.3s ease;
 .box2 .box2text img {
   max-width: 70%;
   max-height: 70%;
-  transition: transform 0.3s ease; /* Smooth transition for hover scale */
+  transition: transform 0.3s ease;
+  /* Smooth transition for hover scale */
 }
 
 .box2 .box2text img:hover {
-  transform: scale(1.1); /* Keep the zoom effect */
+  transform: scale(1.1);
+  /* Keep the zoom effect */
 }
 
 .box2 .box2b {
@@ -428,12 +464,14 @@ transition: transform 0.3s ease;
   background-color: #1d9edb;
   margin-bottom: 10px;
   margin-right: 5px;
-  overflow: hidden; /* Prevent image overflow on zoom */
+  overflow: hidden;
+  /* Prevent image overflow on zoom */
 }
 
 .box2b {
   /* Existing styles */
-  position: relative; /* Ensure the positioning works correctly */
+  position: relative;
+  /* Ensure the positioning works correctly */
 }
 
 /* Positioning for the icon and images */
@@ -454,7 +492,7 @@ transition: transform 0.3s ease;
 .box2b img:nth-child(2) {
   top: 50%;
   transform: translateY(-30%);
-  max-width: 25%;
+  max-width: 35%;
 }
 
 .box2b img:nth-child(3) {
@@ -489,22 +527,22 @@ transition: transform 0.3s ease;
 .new-image {
   /* Position the image in the bottom-left corner */
   position: absolute;
-  bottom:0;
-  left:-3%  ;
+  bottom: 0;
+  left: -3%;
   /* Adjust z-index as needed */
   z-index: 1;
   /* Set max-width for responsiveness */
-  max-width: 90%;
+  max-width: 70%;
   /* Add border-radius for rounded corners */
   /* Add transition for smooth animation */
   transition: transform 0.3s ease, filter 0.3s ease;
   border-radius: 20px;
 }
 
-#member1{
+#member1 {
   position: absolute;
-  bottom:0;
-  left:0;
+  bottom: 0;
+  left: 0;
 
   /* Adjust z-index as needed */
   z-index: 1;
@@ -546,22 +584,22 @@ transition: transform 0.3s ease;
 }
 
 
-.middlepic{
- position: absolute;
- bottom:0  ;
- /* Adjust z-index as needed */
- z-index: 1;
- /* Set max-width for responsiveness */
- max-width: 100%;
- /* Add border-radius for rounded corners */
- /* Add transition for smooth animation */
- transition: transform 0.3s ease, filter 0.3s ease;
- border-radius: 20px;
+.middlepic {
+  position: absolute;
+  bottom: 0;
+  /* Adjust z-index as needed */
+  z-index: 1;
+  /* Set max-width for responsiveness */
+  max-width: 100%;
+  /* Add border-radius for rounded corners */
+  /* Add transition for smooth animation */
+  transition: transform 0.3s ease, filter 0.3s ease;
+  border-radius: 20px;
 
 }
 
 
-.box4b{
+.box4b {
   justify-content: center;
   align-items: center;
   position: relative;
@@ -570,10 +608,10 @@ transition: transform 0.3s ease;
 
 
 
-.box4bpic{
+.box4bpic {
   position: absolute;
-  bottom:0  ;
-  left:20%;
+  bottom: 0;
+  left: 20%;
   /* Adjust z-index as needed */
   z-index: 1;
   /* Set max-width for responsiveness */
@@ -588,7 +626,8 @@ transition: transform 0.3s ease;
 
 
 .flip-animation {
-  transform: scaleX(-1); /* Flip horizontally */
+  transform: scaleX(-1);
+  /* Flip horizontally */
 }
 
 
@@ -598,7 +637,8 @@ transition: transform 0.3s ease;
   /* Position the image in the center */
   position: absolute;
   top: 50%;
-  left: 10%; /* 10% away from the left edge */
+  left: 10%;
+  /* 10% away from the left edge */
   /* transform: translate(-10%, -80%) scaleX(-1);  */
   max-width: 90%;
 }
@@ -606,40 +646,78 @@ transition: transform 0.3s ease;
 
 
 .plus-image {
-  position: absolute; /* Position the plus image absolutely */
-  bottom: 1.5vh; /* Adjust the distance from the bottom */
-  right: 1vw; /* Adjust the distance from the right */
-  max-width: 18%; /* Set the width of the plus image */
-  height: auto; /* Maintain aspect ratio */
-  z-index: 2; /* Ensure the plus image is above other content */
+  position: absolute;
+  /* Position the plus image absolutely */
+  bottom: 1.5vh;
+  /* Adjust the distance from the bottom */
+  right: 1vw;
+  /* Adjust the distance from the right */
+  max-width: 18%;
+  /* Set the width of the plus image */
+  height: auto;
+  /* Maintain aspect ratio */
+  z-index: 2;
+  /* Ensure the plus image is above other content */
   filter: invert(99%) sepia(96%) saturate(16%) hue-rotate(225deg) brightness(103%) contrast(100%);
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 
-.box4a img{
+.box4a img {
   max-width: 100%;
 }
 
 /* --- Footer --- */
 footer {
-    text-align: left;
-    padding: 24px;
-    max-width: 1240px;
-    margin: 40px auto 0;
+  text-align: center;
+  padding: 24px;
+  max-width: 1240px;
+  margin: 40px auto 0;
 }
 
 footer p {
-    font-size: 12px;
-    color: #5D5257;
+  font-size: 12px;
+  color: #5D5257;
+  margin: 8px 0;
 }
 
-@media  screen and (max-width : 570px) {
-  .container .box3,.container .box1,.container .box2,.container .box4,.container .box5{
+.footer-credit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.footer-credit a {
+  display: inline-flex;
+  align-items: center;
+  color: #5D5257;
+  transition: color 0.3s ease;
+  vertical-align: middle;
+}
+
+.footer-credit a:hover {
+  color: #FEB300;
+}
+
+.footer-credit svg {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width : 570px) {
+
+  .container .box3,
+  .container .box1,
+  .container .box2,
+  .container .box4,
+  .container .box5 {
     width: 80%;
     margin: 0;
   }
-  .container{
+
+  .container {
     flex-direction: column;
     align-items: center;
     padding: 0;
@@ -647,13 +725,26 @@ footer p {
     width: 100%;
   }
 
-  .box2 .box
-
-  .box1a, .box1b, .box2a, .box2b, .box4a, .box4b, .box4, .box4 .box4a, .box4 .box4b, .box5b, .box5, .box2 .box2text, .box2 .box2text, .box2 .box2text, .box2 .box4b, .box1a{
-    left:0;
-    right:0;
-    margin:0;
-    padding:0;
+  .box2 .box .box1a,
+  .box1b,
+  .box2a,
+  .box2b,
+  .box4a,
+  .box4b,
+  .box4,
+  .box4 .box4a,
+  .box4 .box4b,
+  .box5b,
+  .box5,
+  .box2 .box2text,
+  .box2 .box2text,
+  .box2 .box2text,
+  .box2 .box4b,
+  .box1a {
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -670,28 +761,39 @@ footer p {
   .container {
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* Reduced gap */
+    gap: 10px;
+    /* Reduced gap */
     padding: 0 24px 24px;
   }
 
   /* Make all direct children of the container full-width */
-  .container > * {
+  .container>* {
     width: 100%;
-    max-width: 60%; /* Adjust max-width */
-    height: auto; /* Ensure proportional height */
+    max-width: 60%;
+    /* Adjust max-width */
+    height: auto;
+    /* Ensure proportional height */
   }
 
   /* Restore box styles that were in the stack */
-  .top, .box1a, .box1b, .box2b, .box3, .box4a, .box4b, .box5b {
+  .top,
+  .box1a,
+  .box1b,
+  .box2b,
+  .box3,
+  .box4a,
+  .box4b,
+  .box5b {
     position: relative;
     width: 100%;
     border-radius: 28px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
     overflow: hidden;
   }
-  
+
   .top {
-    box-shadow: none; /* Slogan doesn't need a shadow */
+    box-shadow: none;
+    /* Slogan doesn't need a shadow */
     display: flex;
     justify-content: center;
   }
@@ -705,36 +807,47 @@ footer p {
     height: auto;
     transform: none;
     margin-top: 30px;
-    margin-bottom: 24px; /* Add bottom margin */
-    z-index: 2; /* Lower z-index for mobile */
+    margin-bottom: 24px;
+    /* Add bottom margin */
+    z-index: 2;
+    /* Lower z-index for mobile */
   }
-  
+
   .box2b {
     aspect-ratio: 4 / 3;
     background-color: #1d9edb;
-    margin-bottom: 24px; /* Add bottom margin */
+    margin-bottom: 24px;
+    /* Add bottom margin */
   }
-  
-  .box4a { background-color: #74ae8a; }
-  .box4b { 
-    background-color: #e7d2a5; 
-    margin-bottom: 24px; /* Add bottom margin */
+
+  .box4a {
+    background-color: #74ae8a;
+  }
+
+  .box4b {
+    background-color: #e7d2a5;
+    margin-bottom: 24px;
+    /* Add bottom margin */
   }
 
   .box1a {
     overflow: visible;
     border-radius: 0;
-    box-shadow: none; /* Also remove shadow to prevent odd visual effects */
+    box-shadow: none;
+    /* Also remove shadow to prevent odd visual effects */
   }
 
   .box5b {
     top: auto;
     margin-bottom: 20px;
   }
-  .box3 { margin: 0; }
-  
+
+  .box3 {
+    margin: 0;
+  }
+
   .footer.microcopy {
-      text-align: center;
+    text-align: center;
   }
 
   .top {
@@ -746,25 +859,32 @@ footer p {
   .box5b {
     overflow: visible;
   }
+
   .top .centered-image {
     width: 80%;
   }
+
   .play-button-container {
-    display: grid; /* Use Grid for robust centering */
-    place-items: center; /* Center horizontally and vertically */
+    display: grid;
+    /* Use Grid for robust centering */
+    place-items: center;
+    /* Center horizontally and vertically */
     margin-bottom: 40px;
     box-shadow: none;
     border-radius: 28px;
     background-color: transparent;
-    aspect-ratio: 1 / 1; /* Make container square */
+    aspect-ratio: 1 / 1;
+    /* Make container square */
   }
 
   .play-button-container img {
-    max-width: 100px; /* Set image size to 100px */
+    max-width: 100px;
+    /* Set image size to 100px */
   }
 
   /* Hide specific boxes on mobile */
-  .box-link, /* This is the wrapper for box1 */
+  .box-link,
+  /* This is the wrapper for box1 */
   .box1,
   .box2,
   .box4,
@@ -772,7 +892,8 @@ footer p {
     display: none;
   }
 
-  .box4a, .box4b {
+  .box4a,
+  .box4b {
     aspect-ratio: 240 / 165;
   }
 }

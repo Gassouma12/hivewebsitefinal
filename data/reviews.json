@@ -1,0 +1,37 @@
+[
+    {
+        "id": 5,
+        "name": "Yosra Letaief",
+        "image": "../assets/images/reviews/img_697956497f78c4.24964605.jpg",
+        "rating": 5,
+        "text": "Great Place to Work.Very comfortable workplace with great ambience.\n\nHighly recommend this place."
+    },
+    {
+        "id": 6,
+        "name": "Haythem Farhat",
+        "image": "",
+        "rating": 5,
+        "text": "Five stars for Hive12! The space is spotless, and the private offices offer a great view. The manager is super nice and makes you feel right at home.\n\n✅ Fast Internet\n✅ Free Coffee\n✅ Perfect Location\n\nHighly recommend this spot for anyone looking for a productive and professional environment."
+    },
+    {
+        "id": 7,
+        "name": "Aboulkacem Ben Arab",
+        "image": "../assets/images/reviews/img_6979569fc14979.13659838.jpg",
+        "rating": 5,
+        "text": "The community is very dynamic, the vibe is cozy, and the space is very well equipped. Overall, It's by far one of the best coworking spaces I've ever been to, not only because of the space, but also for the human touch that comes with it. ❤️"
+    },
+    {
+        "id": 8,
+        "name": "Miled Basma",
+        "image": "../assets/images/reviews/img_697957af15fbc7.52015817.jpg",
+        "rating": 5,
+        "text": "A spacious and lively space full of color and light. Very clean, quiet, and comfortable. It consists of two bathrooms and two kitchens. You have a shared space, private spaces, and a meeting room. You can also work in the green spaces in this space. The manager is kind and friendly."
+    },
+    {
+        "id": 9,
+        "name": "Jesse Bordoe",
+        "image": "",
+        "rating": 5,
+        "text": "I received a very warm welcome from a friendly, open team. It's a great place to work, plus a nice view. Recommended!"
+    }
+]

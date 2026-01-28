@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "title": "Coworking<br>Space",
+        "description": "Our vibrant coworking space offers a flexible and collaborative environment for freelancers, startups, and remote workers. Enjoy high-speed internet, meeting rooms, and a community of innovators.",
+        "backgroundColor": "#fddd3c",
+        "image": "../assets/images/services/img_69793504224f22.47019336.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Incubation<br>Programs",
+        "description": "We provide structured programs to help early-stage startups grow. Our incubation services include mentorship, workshops, funding opportunities, and access to our extensive .",
+        "backgroundColor": "#D49FD3"
+    },
+    {
+        "id": 3,
+        "title": "Company<br>Registration",
+        "description": "Navigate the legal complexities of starting a business with ease. We offer comprehensive support for company registration, ensuring you're set up for success from day one.",
+        "backgroundColor": "#8DB0A1"
+    },
+    {
+        "id": 4,
+        "title": "Research<br>Department",
+        "description": "Our dedicated research department provides valuable market insights, industry analysis, and data-driven strategies to help your business make informed decisions and stay ahead of the curve.",
+        "backgroundColor": "#CBDF92"
+    },
+    {
+        "id": 5,
+        "title": "Consultancy<br>Department",
+        "description": "Get expert advice on business strategy, marketing, finance, and more. Our experienced consultants are here to provide tailored guidance to help you overcome challenges and achieve your goals.",
+        "backgroundColor": "#10A5EE"
+    },
+    {
+        "id": 6,
+        "title": "Networking<br>Events",
+        "description": "Connect with fellow entrepreneurs, investors, and industry leaders at our regular networking events. Build valuable relationships and become part of a supportive and dynamic community.",
+        "backgroundColor": "#E8DABE"
+    }
+]

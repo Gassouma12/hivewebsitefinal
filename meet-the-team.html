@@ -23,10 +23,11 @@
                 <ul class="nav-list">
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="experts.html">Experts</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="startups.html">Startups</a></li>
                     <li><a href="partners.html">Partners</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                 </ul>
             </nav>
             <div class="header-actions">
@@ -65,10 +66,11 @@
             <ul>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="experts.html">Experts</a></li>
+                <li><a href="projects.html">Projects</a></li>
                 <li><a href="startups.html">Startups</a></li>
                 <li><a href="partners.html">Partners</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
     </div>
@@ -78,55 +80,7 @@
         <h1>Meet the Team</h1>
 
         <div class="team-grid">
-            <div class="team-card">
-                <div class="portrait-badge">
-                    <img src="https://placehold.co/112x112" alt="Portrait of Marouen Nouira">
-                </div>
-                <h2>Marouen Nouira</h2>
-                <p class="team-org">@ Hive12</p>
-                <span class="microcopy">Click to expand</span>
-                <span class="plus-glyph">+</span>
-                <div class="modal-details" style="display: none;">
-                    <h2>Marouen Nouira</h2>
-                    <p class="team-role">Community Manager</p>
-                    <p class="team-org">@ Hive12</p>
-                    <p>Marouen is the heart of our community, fostering a collaborative and energetic environment for all our members. He's the go-to person for connections and support.</p>
-                </div>
-            </div>
-
-            <div class="team-card">
-                <div class="portrait-badge">
-                    <img src="https://placehold.co/112x112" alt="Portrait of Mondher Kebiri">
-                </div>
-                <h2>Mondher Kebiri</h2>
-                <p class="team-role">Chief Operating Officer</p>
-                <p class="team-org">@ Hive12</p>
-                <span class="microcopy">Click to expand</span>
-                <span class="plus-glyph">+</span>
-                <div class="modal-details" style="display: none;">
-                    <h2>Mondher Kebiri</h2>
-                    <p class="team-role">Chief Operating Officer</p>
-                    <p class="team-org">@ Hive12</p>
-                    <p>Mondher ensures that Hive12 operates smoothly and efficiently. His expertise in logistics and management is key to our success and the success of our startups.</p>
-                </div>
-            </div>
-
-            <div class="team-card">
-                <div class="portrait-badge">
-                    <img src="https://placehold.co/112x112" alt="Portrait of Ichraf Jarray">
-                </div>
-                <h2>Ichraf Jarray</h2>
-                <p class="team-role">Chief Executive Officer</p>
-                <p class="team-org">@ Hive12</p>
-                <span class="microcopy">Click to expand</span>
-                <span class="plus-glyph">+</span>
-                <div class="modal-details" style="display: none;">
-                    <h2>Ichraf Jarray</h2>
-                    <p class="team-role">Chief Executive Officer</p>
-                    <p class="team-org">@ Hive12</p>
-                    <p>As the visionary leader of Hive12, Ichraf drives the mission to empower entrepreneurs and build a thriving startup ecosystem in the Sahel region.</p>
-                </div>
-            </div>
+            <!-- Content will be loaded from data/team.json -->
         </div>
 
         <button class="load-more">Load more</button>
@@ -134,10 +88,18 @@
 
     <footer>
         <p>&copy; HIVE12 ~ All rights reserved</p>
+        <p class="footer-credit">Made with 💛 by Aboulkacem ben Arab <a
+                href="https://www.linkedin.com/in/aboulkacem-ben-arab-567974241/" target="_blank"
+                rel="noopener noreferrer" aria-label="LinkedIn profile of Aboulkacem ben Arab"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg></a></p>
     </footer>
 
     <script src="js/script.js"></script>
     <script src="js/header.js"></script>
+    <script src="js/data-loader.js"></script>
 
     <!-- Modal -->
     <div id="info-modal" class="modal-overlay" style="display: none;">
@@ -148,6 +110,7 @@
             </div>
         </div>
     </div>
+    <script src="js/splash-cursor.js"></script>
     <script src="js/modal.js"></script>
 </body>
 

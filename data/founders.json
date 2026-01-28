@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "name": "Mohamed B. Hammouda",
+        "role": "Chief Executive Officer",
+        "organization": "Funnycation",
+        "bio": "Mohamed is the driving force behind Funnycation, combining his passion for education and entertainment to create unforgettable learning experiences for kids.",
+        "imageUrl": "https://placehold.co/112x112",
+        "cardColor": "#000000",
+        "badgeColor": "#000000",
+        "image": "../assets/images/founders/img_696433ef5efe13.90762159.jpg",
+        "linkedin": "https://www.linkedin.com/in/mohamed-ben-hamouda5",
+        "color": "#84b3c2"
+    },
+    {
+        "id": 2,
+        "name": "Chiheb E. Fatnassi",
+        "role": "Chief Executive Officer",
+        "organization": "BNIINN",
+        "bio": "Chiheb's vision for BNIINN is to empower local artisans by giving them a powerful platform to showcase their craft and connect with a global audience.",
+        "imageUrl": "https://placehold.co/112x112",
+        "cardColor": "card-cyan",
+        "badgeColor": "badge-teal",
+        "image": "",
+        "linkedin": "",
+        "color": "#bfc077"
+    },
+    {
+        "id": 3,
+        "name": "Mohamed Lazreg",
+        "role": "Chief Executive Officer",
+        "organization": "Instacoif",
+        "bio": "Mohamed is revolutionizing the beauty industry with Instacoif, a platform that connects clients with talented stylists for on-demand, personalized services.",
+        "imageUrl": "https://placehold.co/112x112",
+        "cardColor": "card-beige",
+        "badgeColor": "badge-teal",
+        "image": "",
+        "linkedin": "https://www.linkedin.com/in/ali-ayari/",
+        "color": "#895f8c"
+    }
+]

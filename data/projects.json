@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Creative Design Workshop",
+        "description": "A comprehensive design workshop helping startups craft beautiful and user-friendly products with modern creative vision.",
+        "image": "../assets/images/projects/img_69792537462da9.63491982.jpg",
+        "color": "#d49fd3",
+        "articleSlug": "4"
+    },
+    {
+        "id": 2,
+        "title": "Startup Advisory Program",
+        "description": "Expert guidance on business strategy, growth, and scaling for incubated companies in the startup ecosystem.",
+        "image": "https://placehold.co/400x400",
+        "color": "#81d8f9",
+        "articleSlug": "4"
+    },
+    {
+        "id": 3,
+        "title": "Global Business Development",
+        "description": "International business development coaching to help startups build strong client relationships and expand globally.",
+        "image": "https://placehold.co/400x400",
+        "color": "#fddd3c",
+        "articleSlug": ""
+    }
+]

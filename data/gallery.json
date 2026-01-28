@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "title": "Hive12 Launch Event",
+        "date": "2025-01-15",
+        "cover": "../assets/images/gallery/img_697963a690f203.08357731.jpg",
+        "images": [
+            "../assets/images/gallery/img_69796478765670.95726799.jfif",
+            "../assets/images/gallery/img_697964788408f7.82174425.jfif",
+            "../assets/images/gallery/img_697964789078e9.97805878.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Testing Album",
+        "date": "2026-02-17",
+        "cover": "../assets/images/gallery/img_697964a5dd1538.78615569.jpg",
+        "images": [
+            "../assets/images/gallery/img_697964b7768c03.38026309.png",
+            "../assets/images/gallery/img_697964b77f8f39.44284226.png",
+            "../assets/images/gallery/img_697964b78790f8.52480300.png"
+        ]
+    }
+]

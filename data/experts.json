@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Chiheb E. Fatnassis",
+        "role": "Chief Creative Officer",
+        "organization": "Pixelup",
+        "bio": "Chiheb is a design virtuoso, helping startups craft beautiful and user-friendly products. His creative vision transforms ideas into compelling brand experiences.",
+        "imageUrl": "https://placehold.co/112x112",
+        "cardColor": "#28e661",
+        "badgeColor": "#a9fd2b",
+        "color": "#d49fd3",
+        "image": "",
+        "linkedin": ""
+    },
+    {
+        "id": 2,
+        "name": "Slaheddine Dardouri",
+        "role": "Startups Advisor",
+        "organization": "Swisscontact",
+        "bio": "With years of experience in the startup ecosystem, Slaheddine provides invaluable guidance on business strategy, growth, and scaling for our incubated companies.",
+        "imageUrl": "https://placehold.co/112x112",
+        "cardColor": "card-cyan",
+        "badgeColor": "#FDDD3C",
+        "color": "#81d8f9"
+    },
+    {
+        "id": 3,
+        "name": "Jeff Ford",
+        "role": "Global Account Executive",
+        "organization": "ConferenceDirect",
+        "bio": "Jeff is a master of sales and international business development. He coaches our startups on how to build strong client relationships and expand into global markets.",
+        "imageUrl": "https://placehold.co/112x112",
+        "cardColor": "card-yellow",
+        "badgeColor": "#FDDD3C",
+        "color": "#fddd3c"
+    }
+]

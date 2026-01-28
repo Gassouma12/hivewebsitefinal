@@ -10,23 +10,30 @@ body.dark-mode .site-header.is-scrolling {
     background-color: rgba(18, 18, 18, 0.65);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
 }
+
 body.dark-mode .primary-nav {
     background: #1E1E1E;
     border-color: rgba(255, 255, 255, 0.12);
 }
+
 body.dark-mode .nav-list a {
     color: rgba(255, 255, 255, 0.87);
 }
+
 body.dark-mode .nav-list a::after {
     background-color: rgba(255, 255, 255, 0.87);
 }
+
 body.dark-mode .hamburger-line {
     background-color: rgba(255, 255, 255, 0.87);
 }
+
 body.dark-mode .contact-pill {
-    background-color: #FDDD3C; /* Hive Yellow */
+    background-color: #FDDD3C;
+    /* Hive Yellow */
     color: #121212;
 }
+
 body.dark-mode .contact-pill:hover {
     background-color: #FDDD3C;
 }
@@ -40,14 +47,19 @@ body.dark-mode h5,
 body.dark-mode h6 {
     color: #FFFFFF;
 }
-body.dark-mode p, body.dark-mode span, body.dark-mode div {
-     color: rgba(255, 255, 255, 0.7);
+
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode div {
+    color: rgba(255, 255, 255, 0.7);
 }
+
 body.dark-mode a {
-    color: #bb86fc;
+    color: #59C3C2;
 }
+
 body.dark-mode a:hover {
-    color: #a35ff9;
+    color: #4AB3B2;
 }
 
 /* --- Page Specific Overrides --- */
@@ -69,8 +81,10 @@ body.dark-mode .social-pill {
 /* Services Page */
 body.dark-mode .service-card h2,
 body.dark-mode .service-card .plus-glyph {
-    color: #121212; /* Keep text dark on light-colored cards */
+    color: #121212;
+    /* Keep text dark on light-colored cards */
 }
+
 body.dark-mode .service-card .microcopy {
     color: rgba(0, 0, 0, 0.6);
 }
@@ -80,16 +94,45 @@ body.dark-mode .expert-card,
 body.dark-mode .team-card {
     color: #121212;
 }
+
 body.dark-mode .expert-card h2,
 body.dark-mode .team-card h2,
 body.dark-mode .expert-card .plus-glyph,
 body.dark-mode .team-card .plus-glyph {
     color: #121212;
 }
-body.dark-mode .expert-role, body.dark-mode .expert-org,
-body.dark-mode .team-role, body.dark-mode .team-org,
+
+body.dark-mode .expert-role,
+body.dark-mode .expert-org,
+body.dark-mode .team-role,
+body.dark-mode .team-org,
 body.dark-mode .expert-card .microcopy,
 body.dark-mode .team-card .microcopy {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+body.dark-mode .expert-linkedin-icon {
+    background: rgba(0, 0, 0, 0.2);
+    color: #121212;
+}
+
+body.dark-mode .expert-linkedin-icon:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* Founders Page */
+body.dark-mode .founder-card {
+    color: #121212;
+}
+
+body.dark-mode .founder-card h2,
+body.dark-mode .founder-card .plus-glyph {
+    color: #121212;
+}
+
+body.dark-mode .founder-role,
+body.dark-mode .founder-org,
+body.dark-mode .founder-card .microcopy {
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -109,6 +152,23 @@ body.dark-mode .gallery-tile {
 body.dark-mode .contact-tile {
     color: #121212;
 }
+
+body.dark-mode .contact-tile p,
+body.dark-mode .contact-tile span,
+body.dark-mode .contact-tile div,
+body.dark-mode .contact-tile a,
+body.dark-mode .contact-tile h3 {
+    color: #121212 !important;
+}
+
+body.dark-mode .contact-tile a:hover {
+    color: #121212 !important;
+}
+
+body.dark-mode .tile-address .star {
+    color: #FEB300 !important;
+}
+
 body.dark-mode .contact-tile.tile-map {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }

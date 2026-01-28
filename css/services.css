@@ -8,7 +8,7 @@ body {
 }
 
 *:focus-visible {
-    outline: 2px solid rgba(6,5,7,0.35);
+    outline: 2px solid rgba(6, 5, 7, 0.35);
     outline-offset: 2px;
 }
 
@@ -16,26 +16,29 @@ body {
 .page-container {
     max-width: 1240px;
     margin: 0 auto;
-    padding: 0 24px; /* Mobile padding */
+    padding: 0 24px;
+    /* Mobile padding */
 }
 
 /* --- PAGE TITLE --- */
 h1 {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 42px; /* Bigger mobile size */
-    line-height: 1.1;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
     color: #060507;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 56px;
 }
 
 /* --- SERVICES GRID --- */
 .services-grid {
     display: grid;
-    grid-template-columns: 1fr; /* Mobile */
-    gap: 24px; /* Mobile */
+    grid-template-columns: 1fr;
+    /* Mobile */
+    gap: 24px;
+    /* Mobile */
     margin-bottom: 40px;
     max-width: 60%;
     margin-left: auto;
@@ -45,21 +48,39 @@ h1 {
 /* --- SERVICE CARD --- */
 .service-card {
     position: relative;
-    height: 300px;
+    min-height: 300px;
     padding: 28px;
     border-radius: 28px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .service-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 28px rgba(0,0,0,0.10);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.10);
+}
+
+/* Service Image */
+.service-card .service-image {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.service-card .service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .service-card h2 {
-    font-size: 24px; /* Mobile */
+    font-size: 24px;
+    /* Mobile */
     font-weight: 900;
     line-height: 1.1;
     letter-spacing: -0.025em;
@@ -71,14 +92,16 @@ h1 {
     bottom: 28px;
     left: 28px;
     font-size: 12px;
-    color: rgba(93, 82, 87, 0.7); /* Muted color with opacity */
+    color: rgba(93, 82, 87, 0.7);
+    /* Muted color with opacity */
 }
 
 .plus-glyph {
     position: absolute;
     bottom: 16px;
     right: 16px;
-    font-size: 36px; /* Mobile */
+    font-size: 36px;
+    /* Mobile */
     font-weight: 400;
     color: #060507;
 }
@@ -91,7 +114,7 @@ h1 {
     padding: 0 28px;
     border-radius: 9999px;
     background-color: transparent;
-    border: 1.5px solid rgba(6,5,7,0.12);
+    border: 1.5px solid rgba(6, 5, 7, 0.12);
     color: #060507;
     font-weight: 600;
     font-size: 16px;
@@ -101,7 +124,7 @@ h1 {
 
 .reviews-btn:hover {
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* --- FOOTER --- */
@@ -136,7 +159,7 @@ footer p {
     .service-card h2 {
         font-size: 28px;
     }
-    
+
     footer {
         padding: 24px 40px;
     }
@@ -172,7 +195,7 @@ footer p {
     .plus-glyph {
         font-size: 44px;
     }
-    
+
     footer {
         padding: 24px 64px;
     }

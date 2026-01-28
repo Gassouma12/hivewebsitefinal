@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Marouen Nouiraa",
+        "role": "Community Manager",
+        "organization": "Hive12",
+        "bio": "Marouen is the heart of our community, fostering a collaborative and energetic environment for all our members. He's the go-to person for connections and support.",
+        "imageUrl": "../assets/images/team/img_69793fef42ffe8.64193447.jpg",
+        "cardColor": "#d42525",
+        "badgeColor": "#e51515",
+        "color": "#f7cb2c",
+        "linkedin": "s"
+    },
+    {
+        "id": 2,
+        "name": "Mondher Kebiri",
+        "role": "Chief Operating Officer",
+        "organization": "Hive12",
+        "bio": "Mondher ensures that Hive12 operates smoothly and efficiently. His expertise in logistics and management is key to our success and the success of our startups.",
+        "imageUrl": "https://placehold.co/112x112",
+        "color": "#3fbad9"
+    },
+    {
+        "id": 3,
+        "name": "Ichraf Jarray",
+        "role": "Chief Executive Officer",
+        "organization": "Hive12",
+        "bio": "As the visionary leader of Hive12, Ichraf drives the mission to empower entrepreneurs and build a thriving startup ecosystem in the Sahel region.",
+        "imageUrl": "https://placehold.co/112x112",
+        "color": "#f5982e"
+    }
+]

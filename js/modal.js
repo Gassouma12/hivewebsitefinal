@@ -21,32 +21,44 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 300); // Wait for transition to finish
     }
 
-    // Add click listeners to all cards
-    const cards = document.querySelectorAll('.team-card, .service-card, .expert-card, .startup-tile, .founder-card');
-    cards.forEach(card => {
+    // Use event delegation - attach listener to document body instead of individual cards
+    document.body.addEventListener('click', (e) => {
+        const card = e.target.closest('.team-card, .service-card, .expert-card, .startup-tile, .founder-card, .project-card');
+        if (!card) return;
+
         card.style.cursor = 'pointer'; // Add pointer cursor to indicate clickability
-        card.addEventListener('click', () => {
-            const details = card.querySelector('.modal-details');
-            const imageContainer = card.querySelector('.portrait-badge') || card.querySelector('img');
-            
-            let content = '';
 
-            if (imageContainer) {
-                // Clone the image or its container to avoid moving it from the card
-                const imageClone = imageContainer.cloneNode(true);
-                // Add a class for styling within the modal
-                imageClone.classList.add('modal-image');
-                content += imageClone.outerHTML;
-            }
+        const details = card.querySelector('.modal-details');
+        const isFounderCard = card.classList.contains('founder-card');
+        const isTeamCard = card.classList.contains('team-card');
 
-            if (details) {
-                content += details.innerHTML;
-            }
+        // For founder and team cards, add special class to modal
+        if (isFounderCard || isTeamCard) {
+            modal.classList.add('founder-modal');
+        } else {
+            modal.classList.remove('founder-modal');
+        }
 
-            if (content) {
-                openModal(content);
-            }
-        });
+        const imageContainer = card.querySelector('.portrait-badge') || card.querySelector('img');
+
+        let content = '';
+
+        // Only clone image for cards that don't have image in modal-details (founders and team have it)
+        if (imageContainer && !isFounderCard && !isTeamCard) {
+            // Clone the image or its container to avoid moving it from the card
+            const imageClone = imageContainer.cloneNode(true);
+            // Add a class for styling within the modal
+            imageClone.classList.add('modal-image');
+            content += imageClone.outerHTML;
+        }
+
+        if (details) {
+            content += details.innerHTML;
+        }
+
+        if (content) {
+            openModal(content);
+        }
     });
 
     // Close modal when the close button is clicked
