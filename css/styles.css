@@ -17,6 +17,18 @@
   font-family: 'Arial', sans-serif;
 }
 
+/* Prevent image dragging */
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
 /* Typography */
 li,
 a,
